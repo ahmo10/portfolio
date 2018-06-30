@@ -2,15 +2,13 @@ body{
   max-width: 100%;
   overflow-x: hidden;
 }
-.nav-bar{
-
-
-}
 .homepage{
-  background-color: tomato;
-  height: 500px;
-  position: relative;
-  top: 40px;
+  height: 600px;
+  z-index:-1;
+ 	background-image:url(images/apple.jpg);
+ 	background-repeat:no-repeat;
+ 	background-attachment:fixed;
+  background-size:cover;
 }
 
 ul{
@@ -39,9 +37,8 @@ h1 {
   left: 300px;
 }
 .about{
-  background-image:url( ..images/apple.jpg);
-  background-size: auto;
-  margin-top: 10px;
+  background-color: tomato;
+
 }
 .aboutText{
   background-color: transparent;
@@ -49,7 +46,7 @@ h1 {
   padding-top: -10px;
   width: 350px;
   height: 450px;
-  border: 3px solid;
+  border: 0px solid;
   font-family: "Pacifico";
   line-height: 20px;
   font-size: 14px;
