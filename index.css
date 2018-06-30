@@ -54,8 +54,24 @@ h1 {
   font-size: 14px;
   padding: 5px;
 }
+
 .aboutPic{
   float: right;
   position: relative;
   top: -450px;
+}
+.fa{
+  padding: 30px;
+  font-size: 50px;
+  border-radius: 50%;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover{
+  opacity: 0.5;
+}
+.fa-facebook{
+  background-color: #3B5998;
+  color: white;
 }
