@@ -1,14 +1,15 @@
 body{
   max-width: 100%;
   overflow-x: hidden;
-}
-.homepage{
-  height: 600px;
-  z-index:-1;
+  height: 1000px;
+  z-index:1;
  	background-image:url(images/apple.jpg);
  	background-repeat:no-repeat;
  	background-attachment:fixed;
   background-size:cover;
+}
+.homepage{
+height: 600px;
 }
 
 ul{
@@ -38,10 +39,11 @@ h1 {
 }
 .about{
   background-color: tomato;
+  opacity: 0.9;
 
 }
 .aboutText{
-  background-color: transparent;
+  color: black;
   margin-top: 40px;
   padding-top: -10px;
   width: 350px;
