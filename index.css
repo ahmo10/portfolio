@@ -97,3 +97,21 @@ span{
   background: #dd4b39;
   color: white;
 }
+.Projects h3 {
+  text-align: center;
+  font-size: 30px;
+}
+.firstProject{
+  border: 2px solid green;
+  width: 500px;
+  height: 400px;
+  margin-left: 20px;
+}
+.secondProject{
+  position: relative;
+  top: -400px;
+  float: right;
+  border: 2px solid green;
+  width: 500px;
+  height: 400px;
+}
