@@ -11,18 +11,16 @@ body{
 .homepage{
 height: 600px;
 }
-
-ul{
-  list-style-type: none;
-  display: block;
-}
-li{
-  float: right;
+a {
+  list-style-type:none;
+  text-decoration: none;
   margin-right: 20px;
   font-size: 26px;
+  float: right;
+  color: #333;
 }
-li a:hover{
-  background-color: blue;
+a:hover{
+  color: blue;
 }
 .description{
   position: relative;
@@ -90,7 +88,7 @@ span{
   color: white;
 }
 .fa-github{
-  background-color: #55ACEE;
+  background-color:#333;
   color: white;
 }
 .fa-google {
@@ -102,10 +100,16 @@ span{
   font-size: 30px;
 }
 .firstProject{
+  background-image: url("images/portfolio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   border: 2px solid green;
   width: 500px;
   height: 400px;
   margin-left: 20px;
+}
+.firstProject:hover{
+
 }
 .secondProject{
   position: relative;
