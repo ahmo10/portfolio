@@ -31,7 +31,7 @@ li a:hover{
   left: 50%;
   height: 300px;
 }
-h1{
+h1 {
   font-family: 'Pacifico';
   font-size: 40px;
   position: relative;
@@ -39,12 +39,23 @@ h1{
   left: 300px;
 }
 .about{
+  background-image: url("apple.jpg");
   height: 400px;
+  margin-top: 10px;
 }
 .aboutText{
-  background-color: grey;
+  background-color: transparent;
   margin-top: 40px;
   width: 350px;
   height: 350px;
   border: 0px solid;
+  font-family: "Pacifico";
+  line-height: 20px;
+  font-size: 24px;
+  padding: 5px;
+}
+.aboutPic{
+  float: right;
+  position: relative;
+  top: -350px;
 }
