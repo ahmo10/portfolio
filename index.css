@@ -95,13 +95,12 @@ span{
   background: #dd4b39;
   color: white;
 }
+.Projects{
+  height: 600px;
+}
 .Projects h3 {
   text-align: center;
   font-size: 30px;
-}
-.projects{
-  height: 1000px;
-
 }
 .firstProject{
   background-image: url("images/portfolio.jpg");
@@ -124,14 +123,27 @@ span{
   text-align: center;
   font-size: 30px;
   visibility: visible;
-  opacity: 1;
-}
+  opacity: 0.5;
 }
 .secondProject{
-  position: relative;
-  top: -400px;
+  background-image: url("images/second.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
   float: right;
   border: 2px solid green;
   width: 500px;
   height: 400px;
+  margin-right: 10px;
+  position: relative;
+  top: -400px;
+}
+.secondDescription{
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 200px;
+  visibility: hidden;
+}
+.secondProject:hover .secondDescription{
+  visibility: visible;
 }
