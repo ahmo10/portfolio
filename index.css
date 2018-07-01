@@ -11,13 +11,17 @@ body{
 .homepage{
 height: 600px;
 }
+.nav-bar{
+  position: fixed;
+  top: 0;
+}
 .nav-bar a {
   list-style-type:none;
   text-decoration: none;
-  margin-right: 20px;
   font-size: 26px;
-  float: right;
+  margin: 16px;
   color: #333;
+  float: right;
 }
 a:hover{
   color: blue;
@@ -96,7 +100,7 @@ span{
   color: white;
 }
 .Projects{
-  height: 600px;
+  height: 300px;
 }
 .Projects h3 {
   text-align: center;
@@ -146,4 +150,20 @@ span{
 }
 .secondProject:hover .secondDescription{
   visibility: visible;
+  opacity: 0.6;
+}
+.ContactPage{
+  position: relative;
+  top:200px;
+  background-color: red;
+  opacity: 0.7;
+  height: 650px;
+}
+.ContactPage h1{
+  position: absolute;
+  top: -10px;
+}
+#Subject{
+  height: 200px;
+  width: 500px;
 }
