@@ -11,7 +11,7 @@ body{
 .homepage{
 height: 600px;
 }
-a {
+.nav-bar a {
   list-style-type:none;
   text-decoration: none;
   margin-right: 20px;
@@ -99,6 +99,10 @@ span{
   text-align: center;
   font-size: 30px;
 }
+.projects{
+  height: 1000px;
+
+}
 .firstProject{
   background-image: url("images/portfolio.jpg");
   background-repeat: no-repeat;
@@ -108,8 +112,20 @@ span{
   height: 400px;
   margin-left: 20px;
 }
-.firstProject:hover{
-
+.portfolioDescription{
+  position: relative;
+  top: 100px;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0.1;
+}
+.firstProject:hover .portfolioDescription{
+  padding-top: 100px;
+  text-align: center;
+  font-size: 30px;
+  visibility: visible;
+  opacity: 1;
+}
 }
 .secondProject{
   position: relative;
