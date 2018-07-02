@@ -19,7 +19,7 @@ height: 600px;
   list-style-type:none;
   text-decoration: none;
   font-size: 26px;
-  margin: 16px;
+  margin: 10px;
   color: #333;
   float: right;
 }
@@ -28,8 +28,7 @@ a:hover{
 }
 .description{
   position: relative;
-  top: 300px;
-  left: 50%;
+  top: 10px;
   height: 300px;
 }
 h1 {
